@@ -41,7 +41,7 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = "./"
     LOAD = ""
     NO_LOAD = ""  # put some module name here if you do not want it to load
-    MONGO_DB = "Himawari"
+    MONGO_DB = "himawari"
     BOT_API_URL = "https://api.telegram.org/bot"
 
     # you can change these
