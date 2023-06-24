@@ -39,18 +39,18 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = "./"
     LOAD = ""
     NO_LOAD = ""  # put some module name here if you do not want it to load
-    MONGO_DB = "Himawari"
+    MONGO_DB = "LeaveEx"
     BOT_API_URL = "https://api.telegram.org/bot"
 
     # you can change these
-    DEL_CMDS = False  # set it to true if you want the "/" commands to be deleted
+    DEL_CMDS = True  # set it to true if you want the "/" commands to be deleted
     INFOPIC = True  # picture while doing /info
     STRICT_GBAN = True  # IF YOU WANT TO ENABLE GBAN SYSTEM
-    API_ID = 681  # api id from my.telegram.org
-    API_HASH = "45aabfacadsdsds"  # api hash from my.telegram.org
+    API_ID = 3330416  # api id from my.telegram.org
+    API_HASH = "551d747d492ad11a10054fbf672d16e3"  # api hash from my.telegram.org
     # mongo database link (necessary)
-    MONGO_DB_URL = "mongodb+srv://mesdsdwhidsdsgodb.net/?retryWrites=true&w=majority"
-    DB_URL = "postgresql://wdsdsw@ldsas/wasassddb"  # postgres sql database link
+    MONGO_DB_URL = "mongodb+srv://newsenzu:newsenzu@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
+    DB_URL = "postgres://cuzdcojj:2AN8Z057twoa-wDUIM5XIQsUTzqxkbqU@rajje.db.elephantsql.com/cuzdcojj"  # postgres sql database link
     # redis database url from redislabs.com
     REDIS_URL = "redis://dsds3@reddsdsuth-1-1.ec2.cloud.redislabs.com:154dsd/Arssddsdsb"
     TOKEN = "54dssdV8e59Odo"  # bot token from @BotFather
