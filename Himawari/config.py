@@ -52,7 +52,7 @@ class Config(object):
     API_HASH = ""  # api hash from my.telegram.org
     # mongo database link (necessary)
     MONGO_DB_URL = ""
-    DB_URL = ""  # postgres sql database link
+    DB_URL = "postgresql://ttyzrvpi:AlRWAnTpM4vPgacujfA-s08CGb8AHrZR@mahmud.db.elephantsql.com/ttyzrvpi"  # postgres sql database link
     # redis database url from redislabs.com
     REDIS_URL = ""
     TOKEN = ""  # bot token from @BotFather
