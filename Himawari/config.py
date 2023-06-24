@@ -26,6 +26,8 @@ SOFTWARE.
 # import, then extend this class.
 import json
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def get_user_list(config, key):
@@ -39,37 +41,37 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = "./"
     LOAD = ""
     NO_LOAD = ""  # put some module name here if you do not want it to load
-    MONGO_DB = "Himawari"
+    MONGO_DB = ""
     BOT_API_URL = "https://api.telegram.org/bot"
 
     # you can change these
     DEL_CMDS = True  # set it to true if you want the "/" commands to be deleted
     INFOPIC = True  # picture while doing /info
     STRICT_GBAN = True  # IF YOU WANT TO ENABLE GBAN SYSTEM
-    API_ID = 3330416  # api id from my.telegram.org
-    API_HASH = "551d747d492ad11a10054fbf672d16e3"  # api hash from my.telegram.org
+    API_ID =   # api id from my.telegram.org
+    API_HASH = ""  # api hash from my.telegram.org
     # mongo database link (necessary)
-    MONGO_DB_URL = "mongodb+srv://newsenzu:newsenzu@cluster0.m1mw8vk.mongodb.net/?retryWrites=true&w=majority"
-    DB_URL = "postgresql://doadmin:AVNS_lfJ2vYAiAU9XDtdqWMb@db-postgresql-nyc1-85006-do-user-14162283-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require"  # postgres sql database link
+    MONGO_DB_URL = ""
+    DB_URL = ""  # postgres sql database link
     # redis database url from redislabs.com
-    REDIS_URL = "redis-14109.c15.us-east-1-4.ec2.cloud.redislabs.com:14109"
-    TOKEN = "5262608425:AAEbUDcE2inIrSqmzdSTTJUDlVHeZF5pJw8"  # bot token from @BotFather
-    DEV_USERS = [1680004937]  # developers id
-    SUDO_USERS = [1680004937]  # sudo users id
-    SUPPORT_USERS = [1680004937]  # support user ids
-    WHITELIST_USERS = [1680004937]  # commas for multiple ids
-    EVENT_LOGS = -1001561812932  # channel id for gban logs
-    OWNER_ID = 1680004937  # owner id in integer
-    ERROR_LOGS = -1001561812932  # support group id
-    BOT_NAME = "Ayato"  # your bot name
-    ARQ_API_KEY = "FKIRFQ-IYWRKE-SEBYHE-CZRMBD-ARQ"  # ARQ api key from @ARQRobot
-    ARQ_API_URL = "arq.hamker.dev"  # arq link
-    SUPPORT_CHAT = "senzusupp"  # support group username without @
-    UPDATES_CHANNEL = "idealizerd"  # Updates/News Channel username without @
-    BOT_USERNAME = "senzuxbot"  # bot username without @
-    REM_BG_API_KEY = "K2dsdsYma6cZx"  # not necessary
+    REDIS_URL = ""
+    TOKEN = ""  # bot token from @BotFather
+    DEV_USERS = []  # developers id
+    SUDO_USERS = []  # sudo users id
+    SUPPORT_USERS = []  # support user ids
+    WHITELIST_USERS = []  # commas for multiple ids
+    EVENT_LOGS =   # channel id for gban logs
+    OWNER_ID =   # owner id in integer
+    ERROR_LOGS = -  # support group id
+    BOT_NAME = ""  # your bot name
+    ARQ_API_KEY = ""  # ARQ api key from @ARQRobot
+    ARQ_API_URL = ""  # arq link
+    SUPPORT_CHAT = ""  # support group username without @
+    UPDATES_CHANNEL = ""  # Updates/News Channel username without @
+    BOT_USERNAME = ""  # bot username without @
+    REM_BG_API_KEY = ""  # not necessary
     # spamwatch api token from @SpamWatchBot
-    SPAMWATCH_API = "J968E_20LgxrKjsdN24cqYtD~gNRTbU"
+    SPAMWATCH_API = ""
 
 
 class Production(Config):
