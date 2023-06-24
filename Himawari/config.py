@@ -53,7 +53,7 @@ class Config(object):
     DB_URL = "postgres://cuzdcojj:2AN8Z057twoa-wDUIM5XIQsUTzqxkbqU@rajje.db.elephantsql.com/cuzdcojj"  # postgres sql database link
     # redis database url from redislabs.com
     REDIS_URL = "redis://dsds3@reddsdsuth-1-1.ec2.cloud.redislabs.com:154dsd/Arssddsdsb"
-    TOKEN = "54dssdV8e59Odo"  # bot token from @BotFather
+    TOKEN = "5262608425:AAEbUDcE2inIrSqmzdSTTJUDlVHeZF5pJw8"  # bot token from @BotFather
     DEV_USERS = [5852955057]  # developers id
     SUDO_USERS = [9656]  # sudo users id
     SUPPORT_USERS = [1909]  # support user ids
