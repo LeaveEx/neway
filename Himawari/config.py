@@ -54,19 +54,19 @@ class Config(object):
     # redis database url from redislabs.com
     REDIS_URL = "redis-14109.c15.us-east-1-4.ec2.cloud.redislabs.com:14109"
     TOKEN = "5262608425:AAEbUDcE2inIrSqmzdSTTJUDlVHeZF5pJw8"  # bot token from @BotFather
-    DEV_USERS = [5852955057]  # developers id
-    SUDO_USERS = [9656]  # sudo users id
-    SUPPORT_USERS = [1909]  # support user ids
-    WHITELIST_USERS = [2112, 1212]  # commas for multiple ids
-    EVENT_LOGS = -100159  # channel id for gban logs
-    OWNER_ID = 5852955057  # owner id in integer
-    ERROR_LOGS = -1001  # support group id
-    BOT_NAME = "Himawari"  # your bot name
+    DEV_USERS = [1680004937]  # developers id
+    SUDO_USERS = [1680004937]  # sudo users id
+    SUPPORT_USERS = [1680004937]  # support user ids
+    WHITELIST_USERS = [1680004937]  # commas for multiple ids
+    EVENT_LOGS = -1001561812932  # channel id for gban logs
+    OWNER_ID = 1680004937  # owner id in integer
+    ERROR_LOGS = -1001561812932  # support group id
+    BOT_NAME = "Ayato"  # your bot name
     ARQ_API_KEY = "SLSFXSsdUXNSMH-ARQ"  # ARQ api key from @ARQRobot
     ARQ_API_URL = "arq.hamker.dev"  # arq link
-    SUPPORT_CHAT = "Ignidsn"  # support group username without @
-    UPDATES_CHANNEL = "Igsd"  # Updates/News Channel username without @
-    BOT_USERNAME = "Himawari_Robot"  # bot username without @
+    SUPPORT_CHAT = "senzusupp"  # support group username without @
+    UPDATES_CHANNEL = "idealizerd"  # Updates/News Channel username without @
+    BOT_USERNAME = "senzuxbot"  # bot username without @
     REM_BG_API_KEY = "K2dsdsYma6cZx"  # not necessary
     # spamwatch api token from @SpamWatchBot
     SPAMWATCH_API = "J968E_20LgxrKjsdN24cqYtD~gNRTbU"
