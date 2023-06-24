@@ -62,7 +62,7 @@ class Config(object):
     OWNER_ID = 1680004937  # owner id in integer
     ERROR_LOGS = -1001561812932  # support group id
     BOT_NAME = "Ayato"  # your bot name
-    ARQ_API_KEY = "SLSFXSsdUXNSMH-ARQ"  # ARQ api key from @ARQRobot
+    ARQ_API_KEY = "FKIRFQ-IYWRKE-SEBYHE-CZRMBD-ARQ"  # ARQ api key from @ARQRobot
     ARQ_API_URL = "arq.hamker.dev"  # arq link
     SUPPORT_CHAT = "senzusupp"  # support group username without @
     UPDATES_CHANNEL = "idealizerd"  # Updates/News Channel username without @
