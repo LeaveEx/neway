@@ -158,7 +158,7 @@ else:
     BOT_API_URL = Config.BOT_API_URL
     ARQ_API_URL = Config.ARQ_API_URL
     ARQ_API_KEY = Config.ARQ_API_KEY
-    DB_URL = Config.DB_URL
+    DB_URL = postgresql://doadmin:AVNS_lfJ2vYAiAU9XDtdqWMb@db-postgresql-nyc1-85006-do-user-14162283-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require
     STRICT_GBAN = Config.STRICT_GBAN
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
     LOAD = Config.LOAD
